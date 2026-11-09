@@ -1,0 +1,7 @@
+$ python bot_echo.py      # запуск бота
+
+# Доказательство, что бот действительно опрашивает Telegram
+# (лог самого бота: Telegram отказал второму запросу — значит, первый уже слушает):
+TelegramConflictError: Conflict: terminated by other getUpdates request;
+                     make sure that only one bot instance is running
+# бот id = 8809993574 — учебный бот @alex_cod_bot
